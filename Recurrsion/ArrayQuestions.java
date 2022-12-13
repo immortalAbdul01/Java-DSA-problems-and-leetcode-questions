@@ -5,8 +5,7 @@ import java.util.ArrayList;
 public class ArrayQuestions {
     public static void main(String[] args) {
         int [] arr = {5,2,3,4,5,5,56,7,5};
-        returningALlIndex(arr,5,0);
-        System.out.println(list);
+        ArrayList<Integer> list = new ArrayList<>();
     }
 
     // checking the array is sorted or not
@@ -43,4 +42,7 @@ public class ArrayQuestions {
         }
         returningALlIndex(arr,target,s+1);
     }
+//    return the arraylist and search elements in an array on  multiple occurence
+
+
 }
