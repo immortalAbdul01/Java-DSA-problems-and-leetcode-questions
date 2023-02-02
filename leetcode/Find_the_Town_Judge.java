@@ -3,7 +3,7 @@ package leetcode;
 public class Find_the_Town_Judge {
     public static void main(String[] args) {
     int [] [] arr ={{1,2},{2,3}};
-        System.out.println(findJudge(3,arr));
+        System.out.println(findJudgeBetter(3,arr));
     }
     public static int findJudge(int n, int[][] trust) {
     if(n<2){
@@ -48,7 +48,7 @@ public class Find_the_Town_Judge {
     }
 
     // Better approach
-    public int findJudgeBetter(int n, int[][] trust) {
+    public static int findJudgeBetter(int n, int[][] trust) {
         if (trust.length == 0 && n == 1)
             return 1;
         int[] count = new int[n + 1];
