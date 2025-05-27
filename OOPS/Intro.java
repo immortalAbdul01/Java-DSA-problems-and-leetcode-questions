@@ -22,15 +22,15 @@ class Country{
     String name;
     int population;
 
-
-    void greeting (){
-        System.out.println("Hello how are you doing all");
-    }
-
     public Country(int state, String name, int population) {
         this.state = state;
         this.name = name;
         this.population = population;
+    }
+
+
+    void greeting (){
+        System.out.println("Hello how are you doing all");
     }
 }
 
